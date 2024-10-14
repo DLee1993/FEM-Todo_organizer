@@ -139,7 +139,7 @@ function App() {
     return (
         <>
             <header>
-                <h1>Todozy</h1>
+                <h1>Todo organiser</h1>
                 <button id="themeToggle" onClick={toggleTheme}>
                     <span>theme toggle</span>
                 </button>
