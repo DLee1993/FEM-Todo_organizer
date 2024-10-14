@@ -131,7 +131,6 @@ function App() {
     }
 
     function setReOrderList(newOrder: Todo[]) {
-        console.log(newOrder);
         setTodoList(newOrder);
         localStorage.setItem("todo-list", JSON.stringify(newOrder));
     }
